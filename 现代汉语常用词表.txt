@@ -56,7 +56,7 @@
 更	geng4	56
 次	ci4	57
 最	zui4	58
-述	shu4	59
+于	yu2	59
 可以	ke3'yi3	60
 可	ke3	61
 去	qu4	62
@@ -92,7 +92,7 @@
 各	ge4	92
 成	cheng2	93
 什么	shen2'me	94
-兀	wu4	95
+元	yuan2	95
 现在	xian4'zai4	96
 社会	she4'hui4	97
 比	bi3	98
@@ -1434,7 +1434,7 @@
 错	cuo4	1434
 探索	tan4'suo3	1435
 玩	wan2	1436
-一日	yi1'ri4	1437
+一旦	yi1'dan4	1437
 生存	sheng1'cun2	1438
 感	gan3	1439
 房子	fang2'zi	1440
@@ -10089,7 +10089,7 @@
 凝固	ning2'gu4	10089
 腥	xing1	10090
 种苗	zhong3'miao2	10091
-蠹	du4	10092
+蠢	chun3	10092
 防务	fang2'wu4	10093
 飞扬	fei1'yang2	10094
 分头	fen1'tou2	10095
@@ -16672,7 +16672,7 @@
 近郊	jin4'jiao1	16672
 精益求精	jing1'yi4'qiu2'jing1	16673
 冷门	leng3'men2	16674
-嘹	liao2	16675
+瞭	liao4	16675
 没意思	mei2'yi4'si	16676
 明令	ming2'ling4	16677
 同业	tong2'ye4	16678
@@ -19033,7 +19033,7 @@
 流星雨	liu2'xing1'yu3	19033
 拼装	pin1'zhuang1	19034
 扰民	rao3'min2	19035
-摄人	she4'ren2	19036
+摄入	she4'ru2	19036
 谁料	shei2'liao4	19037
 时代感	shi2'dai4'gan3	19038
 洼地	wa1'di4	19039
@@ -20909,7 +20909,7 @@
 老前辈	lao3'qian2'bei4	20909
 磷酸	lin2'suan1	20910
 流水线	liu2'shui3'xian4	20911
-呜叫	wu1'jiao4	20912
+鸣叫	ming2'jiao4	20912
 轻伤	qing1'shang1	20913
 求真	qiu2'zhen1	20914
 入座	ru4'zuo4	20915
@@ -23084,7 +23084,7 @@
 取悦	qu3'yue4	23084
 杀虫剂	sha1'chong2'ji4	23085
 稍加	shao1'jia1	23086
-合利	he2'li4	23087
+舍利	she4'li4	23087
 身受	shen1'shou4	23088
 生发	sheng1'fa1	23089
 试车	shi4'che1	23090
@@ -24810,7 +24810,7 @@
 知情人	zhi1'qing2'ren2	24810
 主因	zhu3'yin1	24811
 助推器	zhu4'tui1'qi4	24812
-迫肥	po4'fei2	24813
+追肥	zhui1'fei2	24813
 紫菜	zi3'cai4	24814
 醉心	zui4'xin1	24815
 碍事	ai4'shi4	24816
@@ -29159,7 +29159,7 @@
 养伤	yang3'shang1	29159
 一般化	yi1'ban1'hua4	29160
 一生一世	yi1'sheng1'yi1'shi4	29161
-溃民	kui4'min2	29162
+遗民	yi2'min2	29162
 抑扬顿挫	yi4'yang2'dun4'cuo4	29163
 隐喻	yin3'yu4	29164
 楹联	ying2'lian2	29165
@@ -29316,7 +29316,7 @@
 岗亭	gang3'ting2	29316
 高纬度	gao1'wei3'du4	29317
 篙子	gao1'zi3	29318
-宫阉	gong1'yan1	29319
+宫闱	gong1'wei2	29319
 浩如烟海	hao4'ru2'yan1'hai3	29320
 合璧	he2'bi4	29321
 合葬	he2'zang4	29322
@@ -35663,7 +35663,7 @@
 侯爵	hou2'jue2	35663
 花呢	hua1'ni2	35664
 坏分子	huai4'fen1'zi3	35665
-黄疽	huang2'ju1	35666
+黄疸	huang2'dan3	35666
 黄芪	huang2'qi2	35667
 惶惶然	huang2'huang2'ran2	35668
 昏沉	hun1'chen2	35669
@@ -37785,7 +37785,7 @@
 痛悔	tong4'hui3	37785
 投笔从戎	tou2'bi3'cong2'rong2	37786
 吐沫	tu4'mo	37787
-闭校	bi4'xiao4	37788
+团校	tuan2'xiao4	37788
 退堂鼓	tui4'tang2'gu3	37789
 囤积居奇	tun2'ji1'ju1'qi2	37790
 拖把	tuo1'ba3	37791
@@ -40102,7 +40102,7 @@
 车前子	che1'qian2'zi3	40102
 彻悟	che4'wu4	40103
 陈请	chen2'qing3	40104
-呈祥	cheng2'yang4	40105
+呈祥	cheng2'xiang4	40105
 秤杆	cheng4'gan3	40106
 持械	chi2'xie4	40107
 虫蛀	chong2'zhu4	40108
@@ -40204,7 +40204,7 @@
 人妖	ren2'yao1	40204
 容身	rong2'shen1	40205
 溶血	rong2'xue4	40206
-人定	ren2'ding4	40207
+入定	ru4'ding4	40207
 撒播	sa3'bo1	40208
 桑葚	sang1'shen4	40209
 瘙痒	sao4'yang3	40210
@@ -43366,7 +43366,7 @@
 抱愧	bao4'kui4	43366
 变局	bian4'ju2	43367
 变型	bian4'xing2	43368
-兵贵神速	pang1'gui4'shen2'su4	43369
+兵贵神速	bing1'gui4'shen2'su4	43369
 兵强马壮	bing1'qiang2'ma3'zhuang4	43370
 兵卒	bing1'zu2	43371
 帛书	bo2'shu1	43372
@@ -45397,7 +45397,7 @@
 缩头缩脑	suo1'tou2'suo1'nao3	45397
 抬轿子	tai2'jiao4'zi3	45398
 坦露	tan3'lu4	45399
-疃	tuan3	45400
+嘡	tang1	45400
 疼惜	teng2'xi1	45401
 挑头	tiao3'tou2	45402
 铁镐	tie3'gao3	45403
@@ -51108,7 +51108,7 @@
 清甜	qing1'tian2	51108
 穷期	qiong2'qi1	51109
 琼剧	qiong2'ju4	51110
-秋菜	qiu1'cai2	51111
+秋菜	qiu1'cai4	51111
 全休	quan2'xiu1	51112
 绕远儿	rao4'yuan3'er	51113
 人体炸弹	ren2'ti3'zha4'dan4	51114
@@ -52717,7 +52717,7 @@
 附载	fu4'zai3	52717
 复本	fu4'ben3	52718
 复演	fu4'yan3	52719
-袱	fu2	52720
+洑	fu4	52720
 改产	gai3'chan3	52721
 干柴烈火	gan1'chai2'lie4'huo3	52722
 肝气	gan1'qi4	52723
@@ -53122,7 +53122,7 @@
 贝雕	bei4'diao1	53122
 本籍	ben3'ji2	53123
 崩落	beng1'luo4	53124
-进流	jin4'liu2	53125
+迸流	beng4'liu2	53125
 痹症	bi4'zheng4	53126
 变例	bian4'li4	53127
 辨正	bian4'zheng4	53128
@@ -53540,7 +53540,7 @@
 圆钢	yuan2'gang1	53540
 云崖	yun2'ya2	53541
 臧否人物	zang1'pi3'ren2'wu4	53542
-藏袍	zang2'pao2	53543
+藏袍	zang4'pao2	53543
 早搏	zao3'bo2	53544
 早造	zao3'zao4	53545
 藻饰	zao3'shi4	53546
@@ -54625,7 +54625,7 @@
 治印	zhi4'yin4	54625
 重病号	zhong4'bing4'hao4	54626
 肘腋之患	zhou3'ye4'zhi1'huan4	54627
-朱鹦	zhu1'ying1	54628
+朱鹮	zhu1'huan2	54628
 株型	zhu1'xing2	54629
 助推火箭	zhu4'tui1'huo3'jian4	54630
 蛀蚀	zhu4'shi2	54631
