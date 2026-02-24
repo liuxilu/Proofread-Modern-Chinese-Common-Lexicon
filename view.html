@@ -14,12 +14,6 @@ var txt = [];
 window.onload = () => {
     $('#pgin').oninput = () => setpg(Number($('#pgin').value))
     $('#numin').oninput = () => setpg(num2pg(Number($('#numin').value)));
-    fetch('./现代汉语常用词表.txt').then(a => a.text()).then(a => {
-        a.split('\n').map(a => {
-            let m = a.match(/(^[^0-9\t]+).+?([0-9]+$)/);
-            if (m) txt.push([m[1], m[2]]);
-        })
-    });
     $('#txtin').oninput = () => {
         let t = $('#txtin').value;
         let f = txt.filter(a => a[0].includes(t));
@@ -39,12 +33,45 @@ window.onload = () => {
         setpg(num2pg(Number(n)));
     }
 
-    setpg(3);
+    $('#fileIn').addEventListener('change', (e) => {
+        let files = e.target.files;
+        if (files[0]) loadf(files[0]);
+    }); 
+    
+    $('#fileDrop').addEventListener('dragenter', (e) => { e.preventDefault(); });
+    $('#fileDrop').addEventListener('dragover', (e) => { e.preventDefault(); });
+    $('#fileDrop').addEventListener('drop', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        let files = e.dataTransfer.files;
+        if (files[0]) loadf(files[0]);
+    });
 }
+function loadf(f) {
+    const reader = new FileReader();
+    reader.onload = e => loadt(e.target.result);
+    reader.onerror = () => alert("错误");
+    reader.readAsText(f, 'UTF-8');
+}
+function loadt(t) {
+    txt = [];
+    t.split('\n').map(a => {
+        let m = a.match(/(^[^0-9\t]+).+?([0-9]+$)/);
+        if (m) txt.push([m[1], m[2]]);
+    });
+    setpg(3);
+    $('#ctrl').style = '';
+}
+
 function num2pg(n) {
     for (let i = 0; i < page_num_arr.length; i++) {
-        if (page_num_arr[i][1] < n && n < page_num_arr[i+1][1]) {
-            return page_num_arr[i][0];
+        let e = page_num_arr[i];
+        let e1 = page_num_arr[i+1];
+        if (e[1] <= n && n < e1[1]) {
+            let p = (n-e[1]) / (e1[1]-e[1]);
+            let w = Math.ceil(p*10) % 2;
+            $('#pos').innerHTML = '约列'+Math.ceil(p*5)+(w?'上':'下');
+            return e[0];
         }
     }
 }
@@ -78,14 +105,18 @@ body {
 </style>
 </head>
 <body>
-<div id="ctrl">
-<button onclick="updn('up')">上一页</button>
-<button onclick="updn('dn')">下一页</button>
-<input id="pgin" type="number" min="1" max="669" value="1"/>
-<input id="numin" type="number" min="1" max="99999"/>
-<input id="txtin" type="text"/>
-<select id="sel">
-</select>
+<div id="load">
+    <span id="fileDrop" style="background: lightgray">词表.txt 拖放到此或</span>
+    <input id="fileIn" type="file"/>
+</div>
+<div id="ctrl" style="display: none;">
+    <button onclick="updn('up')">上一页</button>
+    <input id="pgin" type="number" min="1" max="669" value="1" placeholder="页码"/>
+    <button onclick="updn('dn')">下一页</button>
+    <input id="numin" type="number" min="1" max="99999" placeholder="转到词号"/>
+    <span id="pos"></span>
+    <input id="txtin" type="text" placeholder="搜索词语"/>
+    <select id="sel"></select>
 </div>
 <img></img>
 </body>
